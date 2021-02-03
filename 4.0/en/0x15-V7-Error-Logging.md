@@ -26,7 +26,7 @@ V7.1 covers OWASP Top 10 2017:A10. As 2017:A10 and this section are not penetrat
 | # | Description | L1 | L2 | L3 | CWE | CIS | ISO |
 | :---: | :--- | :---: | :---:| :---: | :---: | :---: | :---: |
 | **7.1.1** | Verify that the application does not log credentials or payment details. Session tokens should only be stored in logs in an irreversible, hashed form. ([C9, C10](https://owasp.org/www-project-proactive-controls/#div-numbering)) | ✓ | ✓ | ✓ | 532 | | |
-| **7.1.2** | Verify that the application does not log other sensitive data as defined under local privacy laws or relevant security policy. ([C9](https://owasp.org/www-project-proactive-controls/#div-numbering)) | ✓ | ✓ | ✓ | 532 | 14.5 | 8.1.1 |
+| **7.1.2** | Verify that the application does not log other sensitive data as defined under local privacy laws or relevant security policy. ([C9](https://owasp.org/www-project-proactive-controls/#div-numbering)) | ✓ | ✓ | ✓ | 532 | | 8.2.3 |
 | **7.1.3** | Verify that the application logs security relevant events including successful and failed authentication events, access control failures, deserialization failures and input validation failures. ([C5, C7](https://owasp.org/www-project-proactive-controls/#div-numbering)) | | ✓ | ✓ | 778 | 14.9, 16.12, 16.13| 12.4.1, 12.4.3 |
 | **7.1.4** | Verify that each log event includes necessary information that would allow for a detailed investigation of the timeline when an event happens. ([C9](https://owasp.org/www-project-proactive-controls/#div-numbering)) | | ✓ | ✓ | 778 | 06.3 |12.4.1 |
 
